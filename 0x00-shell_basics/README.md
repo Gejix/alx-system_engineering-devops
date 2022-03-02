@@ -12,4 +12,5 @@ cd - Changes the working directory back to the previous one
 ls -la . .. /boot - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 file /tmp/iamafile - prints the type of file
 ln -s /bin/ls __ls__ - Create symbolic link 
-cp -ui *.html ../
+cp -ui *.html ../ - copy all html files
+mv [[A-Z]]* /tmp/u - move all script beginning with uppercase letter
