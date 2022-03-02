@@ -15,4 +15,5 @@ ln -s /bin/ls __ls__ - Create symbolic link
 cp -ui *.html ../ - copy all html files
 mv [[:upper:]]* /tmp/u - move all script beginning with uppercase letter
 rm *~ - Remove all files in current directory that ends in ~
-mkdir welcome/ welcome/to/ welcome/to/school - create directories in current directory
+mkdir -p welcome/to/school - create directories in current directory
+
