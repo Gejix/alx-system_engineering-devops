@@ -16,4 +16,4 @@ cp -ui *.html ../ - copy all html files
 mv [[:upper:]]* /tmp/u - move all script beginning with uppercase letter
 rm *~ - Remove all files in current directory that ends in ~
 mkdir -p welcome/to/school - create directories in current directory
-
+ls -map - Directory names should end with a slash (/), Files and directories starting with a dot (.) should be listed
