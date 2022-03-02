@@ -14,3 +14,4 @@ file /tmp/iamafile - prints the type of file
 ln -s /bin/ls __ls__ - Create symbolic link 
 cp -ui *.html ../ - copy all html files
 mv [[:upper:]]* /tmp/u - move all script beginning with uppercase letter
+rm *~ - Remove all files in current directory that ends in ~
