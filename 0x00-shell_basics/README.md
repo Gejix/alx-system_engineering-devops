@@ -33,6 +33,4 @@ mkdir /tmp/my_first_directory - Create a script that can create a directory
 
 102: mkdir -p welcome/to/school - create directories in current directory
 
-103: ls -map - Directory names should end with a slash (/), Files and directories starting with a dot (.) should be listed
-
-104: 
+103: ls -map - Directory names should end with a slash (/), Files and directories starting with a dot (.) should be listed 
