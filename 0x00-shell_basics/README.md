@@ -8,3 +8,4 @@ mkdir /tmp/my_first_directory - Create a script that can create a directory
 mv /tmp/betty /tmp/my_first_directory - Move file betty from /tmp/ to /tmp/my_first_directory
 rm /tmp/my_first_directory/betty - Delete the file betty
 rmdir /tmp/my_first_director -Delete the directory
+cd - Changes the working directory back to the previous one
