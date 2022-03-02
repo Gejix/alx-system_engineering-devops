@@ -13,4 +13,4 @@ ls -la . .. /boot - Write a script that lists all files (even ones with names be
 file /tmp/iamafile - prints the type of file
 ln -s /bin/ls __ls__ - Create symbolic link 
 cp -ui *.html ../ - copy all html files
-mv [[A-Z]]* /tmp/u - move all script beginning with uppercase letter
+mv [[:upper:]]* /tmp/u - move all script beginning with uppercase letter
