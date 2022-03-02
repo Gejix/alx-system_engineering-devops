@@ -9,3 +9,5 @@ mv /tmp/betty /tmp/my_first_directory - Move file betty from /tmp/ to /tmp/my_fi
 rm /tmp/my_first_directory/betty - Delete the file betty
 rmdir /tmp/my_first_director -Delete the directory
 cd - Changes the working directory back to the previous one
+ls -la . .. /boot - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+
