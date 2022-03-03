@@ -12,4 +12,8 @@
 
 6: chmod - can also be used to grant multiple permission 
 
-7: Adds execution permission to the owner, the group owner and the other users 
+7: Adds execution permission to the owner, the group owner and the other users
+
+8: Adds permision to file as follows; Owner: no permission at all, Group: no permission at all and Other users: all the permissions
+
+ 
