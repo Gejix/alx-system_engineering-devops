@@ -8,4 +8,6 @@
 
 4: touch - Create a file
 
-5: chmod u+x - Grant execute permission to a determined user  
+5: chmod u+x - Grant execute permission to a determined user
+
+6: chmod - can also be used to grant multiple permission  
