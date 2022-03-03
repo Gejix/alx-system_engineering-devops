@@ -17,3 +17,7 @@
 8: Adds permission to file as follows; Owner: no permission at all, Group: no permission at all and Other users: all the permissions
 
 9: Adds permission to file as follows; -rwxr-x-wr
+
+10: Sets the mode of two files to be equal
+
+
