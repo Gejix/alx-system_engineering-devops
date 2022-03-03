@@ -6,4 +6,4 @@
 
 3: chown - Changes ownership of a file to a given user
 
-4: toush - Create a file 
+4: touch - Create a file 
