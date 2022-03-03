@@ -10,4 +10,6 @@
 
 5: chmod u+x - Grant execute permission to a determined user
 
-6: chmod - can also be used to grant multiple permission  
+6: chmod - can also be used to grant multiple permission 
+
+7: Adds execution permission to the owner, the group owner and the other users 
