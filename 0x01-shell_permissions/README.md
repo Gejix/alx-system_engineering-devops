@@ -14,6 +14,6 @@
 
 7: Adds execution permission to the owner, the group owner and the other users
 
-8: Adds permision to file as follows; Owner: no permission at all, Group: no permission at all and Other users: all the permissions
+8: Adds permission to file as follows; Owner: no permission at all, Group: no permission at all and Other users: all the permissions
 
- 
+9: Adds permission to file as follows; -rwxr-x-wr
