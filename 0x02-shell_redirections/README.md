@@ -32,4 +32,4 @@
 
 16: A script that display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 
-
+17: Ascript that display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
