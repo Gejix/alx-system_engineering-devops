@@ -41,3 +41,5 @@
 20: A script that removes all letters c and C from input.
 
 21: A script that that reverse its input.
+
+22: A script that displays all users and their home directories, sorted by users. Based on the the /etc/passwd file
