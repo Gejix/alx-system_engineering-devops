@@ -10,4 +10,6 @@
 
 5: A script that display the first 10 lines of /etc/passwd
 
+6: A script that displays the third line of the file iacta. The file iacta will be in the working directory.
+
 
