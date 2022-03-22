@@ -1,36 +1,30 @@
-0: pwd- print working directory
+# Shell, Basics
 
-1: ls- Display the contents list of your current directory
+Project done during **Full Stack Software Engineering studies** at **Alx School**. It aims to learn about basics commands, navigation, files and directories in **Shell**.
 
-2: cd- Change working directory to home
+## Files
+All of the following files are scripts, except `main.mgc`:
 
-3: ls -l - Display current directory contents in long format
+| Filename | Description |
+| -------- | ----------- |
+| `0-current_working_directory` | Prints the absolute path name of the current working directory |
+| `1-listit` | Displays the content list of the current directory |
+| `2-bring_me_home` | Changes the working directory to the user's home directory |
+| `3-list_files` | Displays current directory contents in a long format |
+| `4-listmorefiles` | Displays, in the long format, current directory contents, including hidden files |
+| `5-listfilesdigitonly` | Displays current directory contents with user and group IDs |
+| `6-firstdirectory` | Creates a directory named `holberton` in the `/tmp/` directory |
+| `7-movethatfile` | Moves the file `betty` from `/tmp/` to `/tmp/holberton` |
+| `8-firstdelete` | Deletes the file `betty` |
+| `9-firstdirdeletion` | Deletes the directory `holberton` that is in the `/tmp` directory |
+| `10-back` | Changes the working directory to the previous one |
+| `11-lists` | Lists all files in the current directory and its parent directory and the `/boot` directory |
+| `12-file_type` | Prints the type of the file named `iamafile` that is in the `/tmp` directory |
+| `13-symbolic_link` | Creates a symbolic link to `/bin/ls`, named `__ls__` |
+| `14-copy_html` | Copies all the HTML files from the current working directory to the parent directory, but only copies files that did not exist in the parent directory |
+| `15-lets_move` | Moves all files beginning with an uppercase letter to the directory `/tmp/u` |
+| `16-clean_emacs` | Deletes all files in the current working directory that end with the character `~` |
+| `17-tree` | Creates the directories `welcome/`, `welcome/to/` and `welcome/to/holberton` in the current directory |
+| `18-commas` | Lists all the files and directories of the current directory, separated by commas (`,`) |
+| `main.mgc` | Magic file that can be used with the command `file` to detect `Holberton` data files. `Holberton` data files always contain the string `HOLBERTON` at offset 0 |
 
-4: ls -la - Display current directory contents, including hidden files (starting with .)
-
-5: ls -na - Display current directory contents. Long format, with user and group IDs displayed numerically and Hidden files (statrting with .)
-mkdir /tmp/my_first_directory - Create a script that can create a directory
-
-6: mv /tmp/betty /tmp/my_first_directory - Move file betty from /tmp/ to /tmp/my_first_directory
-
-7: rm /tmp/my_first_directory/betty - Delete the file betty
-
-8: rmdir /tmp/my_first_director -Delete the directory
-
-9: cd - Changes the working directory back to the previous one
-
-10: ls -la . .. /boot - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
-
-11: file /tmp/iamafile - prints the type of file
-
-12: ln -s /bin/ls __ls__ - Create symbolic link 
-
-13: cp -ui *.html ../ - copy all html files
-
-14: mv [[:upper:]]* /tmp/u - move all script beginning with uppercase letter
-
-101: rm *~ - Remove all files in current directory that ends in ~
-
-102: mkdir -p welcome/to/school - create directories in current directory
-
-103: ls -map - Directory names should end with a slash (/), Files and directories starting with a dot (.) should be listed 
