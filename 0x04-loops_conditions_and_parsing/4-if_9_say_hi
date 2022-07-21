@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#creating a while loop
+#creating a script that uses if statement
 i=0
 until [ $i = 10 ]
 do
