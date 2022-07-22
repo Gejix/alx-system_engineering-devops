@@ -1,4 +1,4 @@
-#!/usr/bn/env bash
+#!/usr/bin/env bash
 # creating a scrhourpt that print hours
 hour=0
 while [ $hour -le 12 ]
